@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+     /* navber */
+
+     nav{
+        display: flex;
+        margin-bottom: 40px;
+        margin-top: 30px;
+     }
+
+ 
+/*============== Header styles =============*/
+.header {
+    background-image: url('image/banner2.png');
+    padding-right: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 216px;
+    padding-bottom: 350px;
+
+
+}
+
+.header-details {
+    text-align: right;
+    
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color:black;
+}
+
+.header-description {
+    
+    font-size: 16px;
+    color: white;
+
+}
+
+.primary-btn {
+    width: 187px;
+    height: 67px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*=========== About style ============ */
+.about {
+    display: flex;
+    margin: 130px 300px 100px 100px;
+    height: 80%;
+}
+
+
+
+.about-content {
+    padding-top: 50px;
+     margin-left: 50px;
+     /* height: 80%; */
+}
+
+.about-title {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 700px;
+    /* height: 80%; */
+    /* display: flex; */
+}
+
+.about-description {
+    font-size: 16px;
+}
+
+.about-list {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.about-list li i{
+    margin-right: 0px;
+    color: #16D887;
+}
+.about-list li {
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+
+/*================== My plan section styles ==========*/
+.my-plan {
+    
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+
+.item-title {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.item-description {
+    font-size: 30px;
+    margin-top: 10px;
+    opacity: 0.6;
+}
+/*================= blog styles ==================*/
+.blog-main{
+    margin-top: 130px;
+}
+
+.blog-head-title{
+    text-align:center;
+    font-size: 50px;
+    font-weight: 700px;
+}
+.blog-content-main{
+
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-content{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.blog-title{
+    font-size: 14px;
+    color: #333333;
+    text-transform:uppercase;
+}
+.blog-description{
+    font-size: 15px;
+    color: #999999;
+    margin-top: 5px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 30px;
+}
+
+/*================= contact styles ==================*/
+.contact {
+    background-image: url('image/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 130px;
+}
+.gradient{
+    background-image: url('image/gradient1.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contact-title {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.contact-main {
+    margin-left:64px;
+    padding-top: 69px;
+}
+
+/*============== footer styles ====================*/
+.footer {
+    background-color: black;
+    margin-top: 115px;
+    padding: 148px 0 111px 0;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.future {
+    color: white;
+}
+
+.future h1 {
+    font-size: 50px;
+}
+.future h1,
+p,
+img {
+    margin-bottom: 30px;
+}
+.icon img{
+    margin-right: 30px;
+}
+
+.subscribe h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.subscribe h1,
+input {
+    margin-bottom: 30px;
+}
+
+.subscribe input {
+    width: 325px;
+    height: 64px;
+    padding-left: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+}
